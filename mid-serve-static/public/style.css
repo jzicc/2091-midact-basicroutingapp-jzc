@@ -1,0 +1,39 @@
+body {
+  font-family: 'Franklin Gothic Medium';
+  color: black;
+  background: url(web.jpg) no-repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 900px;
+  float: right;
+  border: 1px solid none;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-size: 30px;
+  margin: 40px auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-image: linear-gradient(white, black);
+}
